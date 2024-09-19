@@ -43,7 +43,7 @@
     
 }
 
-#baixar{
+.baixar{
     color:black;
     margin-left: 270px;
     margin-top: 15px;
@@ -61,16 +61,152 @@
 
 #imagem1{
     display: flex;
+    background-color:#202226;
+    align-items: center;
+    height: 300px;
     justify-content: center;
-    background-color:#000000;
+    
 }
 
 #imagem1 h1 {
     color: #ffffff;
+    font-size: 30px;
+    
+
+}
+#imagem1 span{
+    color: #ffffff;
+    }
+ #imagem2{
+        display: flex;
+        background-color:#000000;
+        align-items: center;
+        height: 300px;
+        justify-content: center;
+        }
+
+#imagem2 h1 {
+            color: #ffffff;
+           font-size: 30px;}
+
+#imagem2 span{
+    color: #ffffff;
+   }
+
+#imagem3{
+    display: flex;
+    background-color:#202226;
+    align-items: center;
+    height: 300px;
+    justify-content: center;
+}
+
+#imagem3 h1 {
+    color: #ffffff;
+    font-size: 30px;
+
+
+}
+
+#imagem3 span{
+    color: #ffffff;
+    
+}
+
+#imagem4{
+    display: flex;
+    background-color: #000000;
+    align-items: center;
+    height: 300px;
+    justify-content: center;
+}
+
+#imagem4 h1 {
+    color: #ffffff;
+    font-size: 30px;
+
+
+}
+#imagem4 span {
+    color: #ffffff;
+
+
+}
+.txt_ama{
+    color: yellow !important;
 }
 
 
 body{
     margin: 0px;
     font-family: Montserrat;
+}
+
+
+.conteudos{
+    width: 700px;
+}
+
+#mirian{
+    background-color:#202226;
+    align-items: center;
+    height: 700px;
+    justify-content: center;
+    display: flex;
+    color: #ffffff;
+    
+}
+
+#mirian img {
+    border-radius: 200px 200px 200px 200px ;
+}
+
+#mirian h1 {
+    color: #ffffff;
+    font-size: 30px;
+}
+
+#final{
+    background-color: #202226;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+#final h1 {
+    color: #ffffff;
+    font-size: 45px;
+    
+   
+}
+
+#final img  {
+    height: auto;
+    display: flex;
+}
+
+
+
+#rodape{
+    background-color: #202226;
+    color: #ffffff;
+    justify-content: center;
+    display: flex;
+
+}
+
+#final .baixar{
+    margin-left: 0px;
+    width: 400px;
+}
+
+/* configuração para tablet e smartphones */  
+
+@media screen and (max-width:1024){
+    #banner{
+        display: flex;
+        flex-direction: column;
+        
+    }
 }
